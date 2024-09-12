@@ -1,15 +1,15 @@
 
 import './App.css';
-import Donations from './Donations';
+import Donations from './donationsView/Donations';
 import { useEffect, useState, useContext, createContext } from "react";
 import { Routes, Route } from 'react-router-dom';
 //import OneDonation from './OneDonation';
-import SelectBySort from './SelectBySort';
-import Form from './Form';
+import SelectBySort from './donationsView/SelectBySort';
+import Form from './DonationForm';
 import axios from 'axios';
-import NavBar from './NavBar';
-import Home from './Home';
-import "./backGroundColur.css"
+import NavBar from './navBar/NavBar';
+import Home from './homePage/Home';
+import "./style/backGroundColur.css"
 
 
 

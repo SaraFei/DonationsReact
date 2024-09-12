@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useContext } from 'react';
-import { myContext } from './App'
+import { myContext } from '../App'
 import OneDonation from "./OneDonation";
 import SelectBySort from "./SelectBySort";
-import "./backGroundColur.css"
+import "../style/backGroundColur.css"
 import { Card } from "@mui/material";
 //input
 import Box from '@mui/material/Box';

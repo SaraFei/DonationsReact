@@ -1,7 +1,7 @@
 
 import { useContext } from 'react';
-import { myContext } from './App'
-import "./backGroundColur.css"
+import { myContext } from '../App'
+import "../style/backGroundColur.css"
 //card
 import * as React from 'react';
 import Card from '@mui/material/Card';

@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { myContext } from './App'
-import "./backGroundColur.css";
-import "./backgroundImgForm.css";
+import "./style/backGroundColur.css"
+import "./style/backgroundImgForm.css";
 import { useNavigate } from "react-router-dom";
 // לצד ימין בכפתורים mui הפיכת הטקסט מ 
 import { CacheProvider } from '@emotion/react';
@@ -26,7 +26,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 //img
-import imgForm from'./donateImg.jpg';
+// import imgForm from'../src/homePage/donateImg.jpg';
 
 const Form = ({ donationsArr, setDonationsArr }) => {
     const cacheRtl = createCache({

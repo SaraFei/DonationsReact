@@ -1,6 +1,6 @@
-import "./backGroundColur.css"
+import "../style/backGroundColur.css"
 import { useContext } from 'react';
-import { myContext } from './App'
+import { myContext } from '../App'
 
 import * as React from 'react';
 import { Link, useNavigate } from "react-router-dom";
