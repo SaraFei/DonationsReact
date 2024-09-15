@@ -1,7 +1,3 @@
-Here's the updated README file with details about the `AddDonation` form and the packages used:
-
----
-
 # Donation Site
 
 This is a React-based donation site that allows users to make donations either anonymously or with their name. The platform supports donations in Israeli shekels (NIS) and dollars (USD) and provides features to sort, search, and display donation statistics.
@@ -121,6 +117,3 @@ The app supports RTL layout using `@emotion/react` with `stylis-plugin-rtl` and 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
-
-Let me know if you'd like any additional modifications!
